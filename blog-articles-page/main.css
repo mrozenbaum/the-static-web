@@ -1,0 +1,43 @@
+div#articleOne {
+	font-family:'Open Sans Condensed', sans-serif;
+	font-size:1em;
+	color:black;
+	background-color:grey;
+	line-height: 170%;
+	margin: 15px;
+	padding: .1em;
+	text-align: center;
+	border: 2px solid black;
+	border-radius: 25px 50px;
+	
+
+}
+
+div#articleTwo {
+	font-family:'open sans', sans-serif;
+	font-size:1.1em;
+	color:black;
+	background-color: white;
+	line-height: 180%;
+	margin: 15px;
+	padding: .2em;
+	text-align: center;
+	letter-spacing: .5em;
+	border: 3px dotted red;
+	border-radius: 2em;
+}
+
+div#articleThree {
+	font-family: serif, sans-serif;
+	font-size:1.2em;
+	color:blue;
+	background-color:green;
+	line-height: 200%;
+	margin: 15px;
+	padding: .3em;
+	text-align: center;
+	border: 4px dashed pink;
+	border-radius: 10%;
+	
+
+}

@@ -1,0 +1,86 @@
+body {
+	font-family: 'Roboto', sans-serif;
+	color: gray;
+	font-size: 18px;
+	font-weight: 300;
+	line-height: 2em;
+	letter-spacing: .5px;
+}
+
+
+#main-header {
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+	color: black;
+	font-weight: light;
+}
+
+article {
+	margin: 10%;
+}
+
+section {
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+
+
+h2 {
+	font-weight: 800;
+	text-align: center;
+	text-decoration: underline;
+	letter-spacing: .10em;
+}
+
+h3 {
+	text-align: center;
+	letter-spacing: .10em;
+}
+
+h1 {
+	padding-top: 7px;
+	font-weight: light;
+}
+
+p {
+	padding-left: 15%;
+	padding-right: 15%;
+
+}
+
+#main-footer {
+	text-align: center;
+}
+
+a {
+	list-style-type: none;
+	text-decoration: none;
+	color: black;
+	padding-left: 20px;
+}
+
+a:hover {
+	font-size: 22px;
+	font-weight: 800;
+}
+
+
+#article-one {
+	border: 8px dotted blue;
+}
+
+#article-two {
+	border: 8px dotted purple;
+}
+
+#article-three {
+	border: 8px dotted green;
+}
+
+#article-four {
+	border: 8px dotted orange;
+}
+
+#article-five {
+	border: 8px dotted red;
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Temperature Converter</title>
+</head>
+
+<body>
+	<h1>Temperature Converter</h1>
+		<div id="wrapper">
+<!-- label discribes what <input> is for -->
+			<label>Temperature:</label>
+				<input type="text" id="tempField"> 
+		
+			<br>
+		
+			<label>Fahrenheit:</label> 
+<!-- radio buttons need to have same "name" type in order to function together -->
+				<input type="radio" name="conversionType" value="fahrenheit" id="f"> 
+		
+			<br>
+
+			<label>Celsius:</label>
+				<input type="radio" name="conversionType" value="celsius" id="c"> 
+		
+			<br>
+
+			<label>
+				<button type="button" id="converter">Submit</button>
+			</label>
+			<br>
+		
+			<label>
+				<button type="button" id="clear">Clear</button>
+			</label>	
+		</div>
+
+	
+		<div id="output-target"></div>		
+	
+
+		<script type="text/javascript" src="converter.js"></script>		
+</body>
+</html>
